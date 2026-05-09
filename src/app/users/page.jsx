@@ -7,7 +7,7 @@ const users =await res.json()
 console.log(users,'users')
 
   return (
-    <div>
+    <div className="container mx-auto">
       <h2>User:{users.length} </h2>
       <div className="grid grid-cols-3 gap-5
       ">
